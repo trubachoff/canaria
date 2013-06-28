@@ -1,0 +1,84 @@
+2013/06/26 21:39:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\OpenServer\domains\canaria.local\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\canaria.local\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user
+---
+2013/06/26 21:40:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#1 C:\OpenServer\domains\canaria.local\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\canaria.local\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user
+---
+2013/06/26 21:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "User".' in C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php(141): CWebApplication->runController('User')
+#1 C:\OpenServer\domains\canaria.local\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\OpenServer\domains\canaria.local\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=User
+---
+2013/06/27 11:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\OpenServer\domains\canaria.local\framework\web\CController.php:483
+Stack trace:
+#0 C:\OpenServer\domains\canaria.local\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\OpenServer\domains\canaria.local\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 C:\OpenServer\domains\canaria.local\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\OpenServer\domains\canaria.local\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/about
+---
+2013/06/28 13:47:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/clients/client1/web1/web/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /var/www/clients/client1/web1/web/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /var/www/clients/client1/web1/web/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/clients/client1/web1/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/gii
+---
+2013/06/28 13:47:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/clients/client1/web1/web/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /var/www/clients/client1/web1/web/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /var/www/clients/client1/web1/web/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/clients/client1/web1/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/gii
+---
+2013/06/28 13:48:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/clients/client1/web1/web/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /var/www/clients/client1/web1/web/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /var/www/clients/client1/web1/web/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/clients/client1/web1/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/page?r=gii
+---
+2013/06/28 13:50:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/clients/client1/web1/web/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /var/www/clients/client1/web1/web/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /var/www/clients/client1/web1/web/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/clients/client1/web1/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/page?r=gii
+---
+2013/06/28 13:51:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /var/www/clients/client1/web1/web/framework/gii/GiiModule.php:168
+Stack trace:
+#0 /var/www/clients/client1/web1/web/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/clients/client1/web1/web/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /var/www/clients/client1/web1/web/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /var/www/clients/client1/web1/web/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=gii
+---
